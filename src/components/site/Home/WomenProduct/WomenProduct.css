@@ -1,0 +1,94 @@
+
+ 
+  .women-product-area .container {
+    z-index: 0;
+  }
+  .women-product-area .content-image {
+    width: 100%;
+  }
+  .single-product .price h5 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  .single-product .price h3 {
+    font-weight: 700;
+  }
+  .content:hover {
+    .content-overlay {
+      opacity: 0.5;
+    }
+    .bottom {
+      top: 0; opacity: 1;
+    }
+  }
+  .content .content-overlay {
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  .content {
+    position: relative;
+   
+    margin: auto;
+    overflow: hidden;
+  }
+  .content .card__img {
+    height: 400px;
+     
+   }
+  .content-details {
+    position: absolute;
+    text-align: center; 
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .bottom {
+    position: relative;
+    top: 120px;
+    transition: all 0.3s linear; opacity: 0;
+    background-image: -webkit-linear-gradient(
+      45deg,
+      #f6463d 0%,
+      #f6398d 45%,
+      #f52cdc 100%
+    );
+  }
+  
+  .bottom a {
+    display: inline-block;
+    width: 25%;
+    line-height: 40px;
+    text-align: center;transition: 0.6s;
+  }
+  .bottom a:hover {
+      background-color:white ;
+      span{
+           color: black;
+      }
+     
+    }
+  .bottom a span {
+    color: #fff;transition: 0.6s;
+  }
+  .lnr {
+    font-family: "Linearicons-Free";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  

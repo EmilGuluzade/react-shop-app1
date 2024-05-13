@@ -1,0 +1,25 @@
+*{
+  margin: 0;padding: 0;box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+ul{
+  list-style: none;
+}
+h1{
+  color: #222222;
+}
+a{
+  text-decoration: none;
+}
+::selection {
+  background-color: #f41068;
+  color: #fff;
+}
+body {
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+  position: relative;
+}

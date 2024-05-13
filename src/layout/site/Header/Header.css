@@ -1,0 +1,65 @@
+.default-header {
+    background-color: #fff;
+    width: 100% !important;
+    box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.menutop-wrap a {
+    font-size: 12px;
+    font-weight: 600;
+    color: #222;
+    text-transform: uppercase;transition: 0.3s;
+}
+.menutop-wrap a:hover {
+    color: #fff;
+}
+.menutop-wrap ul{
+    display: flex;margin: 0 !important;padding: 0;
+}
+.menutop-wrap li{
+    padding: 15px 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;align-items: center;transition: 0.3s;
+}
+.menu-top li:hover{
+    background:#f41068 ;
+}
+
+.navbar-nav a {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #000;
+    padding: 20px;
+    transition: 0.3s;
+}
+.navbar-nav a:hover {
+    color: #f41068;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 462px) {
+    .menutop-wrap a {
+        font-size: 8px;
+        padding: 5px 0px;
+    }
+}
