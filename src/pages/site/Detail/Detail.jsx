@@ -7,7 +7,11 @@ const Detail = () => {
   const { setLoading, setError } = useContext(MainContext);
   const [data, setData] = useState([]);
   const { id } = useParams();
-    
+  const [basket, setBasket] = useState(
+    localStorage.getItem("basket")
+      ? JSON.parse(localStorage.getItem("basket"))
+      : []
+  );
 
 
   useEffect(() => {
